@@ -13,6 +13,7 @@ function onDocumentLoaded() {
 
 function rollTheDice(event) {
   console.log("Rolling the dice")
+  // ***make sure new changes have covered the old one
   event.preventDefault();
   let n1 = pickRandomNumber()
   let n2 = pickRandomNumber()
