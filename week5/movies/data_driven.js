@@ -16,6 +16,7 @@ class Movie {
   }
 
   render(container_element) {
+    console.log(container_element)
     const movieContent = document.querySelector("#movie-template").content
     let newMovieElement = movieContent.cloneNode(true)
     newMovieElement.querySelector('h2').textContent = this.title
